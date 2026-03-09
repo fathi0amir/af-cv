@@ -1,0 +1,17 @@
+*.aux
+*.bak0
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.xml
+*.gz
+*.xdv
+*.bak
+*.tmp
+Publication.bib.sav
+Amir_Fathi_CV.bbl-SAVE-ERROR
+.vscode/settings.json
