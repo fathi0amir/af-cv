@@ -1,0 +1,219 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvcolor{burgundy}
+\moderncvstyle[left]{banking} % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\sethintscolumnlength{2.8cm}
+
+% Typical packages
+%\usepackage[utf8]{inputenc} % replace by the encoding you are using
+%\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{amsmath}
+\usepackage{csquotes}
+% Language related packages
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\babelprovide[import]{arabic}
+\babelfont[arabic]{rm}{vazirmatn-Regular.ttf}
+\usepackage{xeCJK}
+\setCJKmainfont{NotoSansTC-Regular.otf}
+\setCJKsansfont{NotoSansTC-Regular.otf}
+\setCJKmonofont{NotoSansTC-Regular.otf}
+\usepackage[left=1.5cm,right=1.8cm,top=2.0cm,bottom=2.0cm]{geometry}
+\recomputelengths
+
+\usepackage[perpage, para, symbol]{footmisc}
+\usepackage[
+    backend=biber,
+    style=nature,
+    maxnames=15,
+    url=false,
+    eprint=false,
+    isbn=false]{biblatex}
+\addbibresource{Publication.bib}
+
+% personal data
+\name{Amir}{Fathi123}
+\title{個人履歷}
+\mobile{+886 96 3534 132}
+\email{fathi0amir@gmail.com}
+\homepage{fathi0amir.github.io}
+% --------------------------------------
+% Begin here
+% --------------------------------------
+\begin{document}
+\makecvtitle
+\vspace{-1.0cm}
+% ---------------------------------------
+% Occupation
+% ---------------------------------------
+\section{工作經歷}
+\cventry{2024--至今}{博士後研究員}
+        {國立陽明交通大學應用化學系}
+        {台灣新竹}{}{}
+\cventry{2023--2024}{博士後研究員}
+        {國立清華大學光電研究中心}
+        {台灣新竹}{}{}
+\cventry{2020--2023}{博士後研究員}
+        {中央研究院分子生物研究所}
+        {台灣台北}{}{}
+%------------------------------------------
+% Education
+%------------------------------------------
+\section{學歷}
+%----------------------------
+% NCTU
+%----------------------------
+\cventry{2013--2020}{博士}
+        {國立交通大學應用化學系}{台灣新竹}{}{}
+%------------------------------------------
+%  Semnan University
+%------------------------------------------
+\cventry{2008--2010}{碩士}
+        {塞姆南大學物理系，伊朗塞姆南}{}{}{}
+%------------------------------------------
+%  Shahid Beheshti
+%------------------------------------------
+\cventry{2003--2008}
+        {學士}{沙希德·貝赫什提大學物理系，伊朗德黑蘭}{}{}{}
+% -----------------------------------
+% Projects & Research
+% -----------------------------------
+\section{研究計畫}
+\cvitem{2024--至今}
+        {從追蹤模擬生物系統之粒子軌跡中生成影像對比度}
+\cvitem{2024--至今}
+        {建立干涉式單粒子追蹤裝置，
+        用於高速粒子追蹤}
+\cvitem{2023--2024}
+        {結合 off-axis 顯微鏡與瞬態光柵 PL（時間解析度低於 80 fs），
+        以研究 TMD 材料}
+\cvitem{2020--2023}
+        {利用自製雙光子成像技術，
+        在虛擬實境系統中
+        研究成年斑馬魚的空間神經編碼}
+\cvitem{2017--2020}
+        {瞬態吸收影像與 SEM 影像共定位，
+        以研究光電元件中的電荷轉移異質性}
+\cvitem{2014--2017}
+        {建構 pump-probe 顯微鏡，
+        用於次繞射極限解析度的奈米粒子追蹤}
+\cvitem{2017--2018}
+        {建構搭載 TE-Cooled PD 之 SS-PL 系統，
+        並以 lock-in amplifier 解調，
+        使 NIR 區域靈敏度達到可見光區光子計數 PMT 的水準}
+\cvitem{2016--2017}
+        {設計、模擬、製作、組裝並測試調諧放大電路，
+        作為 lock-in amplifier 的低成本替代方案}
+\cvitem{2013--2014}
+        {鈣鈦礦太陽能電池的飛秒弛豫研究}
+\cvitem{2010--2012}
+        {以 Rietveld refinement XRD 分析，
+        測定以 CVT 法生長之
+        ZnS\textsubscript{x}Se\textsubscript{1-x} 單晶的成分值}
+\cvitem{2008--2010}
+        {以 Chernov 體擴散模型模擬、生長並表徵
+        以 CVT 法製備之
+        II--VI 族單晶}
+%------------------------------------------
+%  Experiences
+%------------------------------------------
+\section{研究經驗}
+\cvitem{2024--至今}
+        {模擬生物系統中正常與異常擴散，
+        適用於單粒子追蹤實驗}
+\cvitem{2024--至今}
+        {編程高速相機系統，
+        實現非阻塞式影像擷取}
+\cvitem{2023--2024}
+        {編寫 PIMAX3 驅動程式；建構 off-axis 顯微鏡；
+        以 FROG 進行超快雷射脈衝表徵}
+\cvitem{2020--2023}
+        {建構雙光子雷射掃描顯微鏡，
+        整合虛擬實境環境，
+        並透過扭矩／力感測器偵測虛擬游泳事件}
+\cvitem{2018--2020}
+        {操作掃描電子顯微鏡}
+\cvitem{2013--2020}
+        {架設超快 pump-probe 雷射掃描顯微鏡}
+\cvitem{2013--2020}
+        {光電元件的超快雷射光譜與顯微研究}
+\cvitem{2008--2011}
+        {在塞姆南大學進行CVT晶體生長最佳化}
+%------------------------------------------
+%  Rewards and Honors
+%------------------------------------------
+\section{獲獎與榮譽}
+\cvitem{2021}
+        {獲頒「2021 Academia Sinica Postdoctoral Research Scholars」，
+        獲得兩年期研究經費補助}
+\cvitem{2020}
+        {優秀論文獎：``A Direct Mapping
+        Approach to Understand Carrier Relaxation
+        Dynamics in Varied Regions of a
+        Polycrystalline Perovskite Film''}
+\cvitem{2020}
+        {優秀論文獎：``Label-Free Optical
+        Microscope Based on a Phase-Modulated Femtosecond
+        Pump--Probe Approach with Sub-diffraction Resolution''}
+\cvitem{2018}
+        {優秀論文獎：``Slow surface
+        passivation and crystal relaxation with additives to
+        improve device performance and durability for tin-based
+        perovskite solar cells''}
+\cvitem{2013--2020}
+        {獲得國立交通大學博士班獎學金及學費減免}
+\cvitem{2008--2010}
+        {獲得政府學術獎學金（碩士班）}
+\cvitem{2003--2007}
+        {獲得政府學術獎學金（學士班）}
+%------------------------------------------
+% Conference Attended
+%------------------------------------------
+\section{參加學術會議}
+\cvitem{2018年12月}{\textbf{台灣光電學會年度大會}，
+        \newline NCTU（台南校區），台灣}
+\cvitem{2012年3月}{\textbf{第四屆奈米結構國際研討會（ICNS4）}，\newline 伊朗基什島}
+\cvitem{2010年9月}{\textbf{伊朗年度物理研討會}（伊朗物理學會主辦），
+        \newline 布阿里辛那大學，伊朗哈馬丹}
+\cvitem{2009年1月}{\textbf{量子計算與量子資訊處理及量子計算實驗面向研討會}，
+        \newline 沙希德·貝赫什提大學（伊朗）與近畿大學（日本）聯合主辦，伊朗德黑蘭}
+%------------------------------------------
+%  Technical Skills
+%------------------------------------------
+\section{技術能力}
+    \subsection{電腦技能}
+    \cvlistitem{\small \raggedright MATLAB、LabVIEW、R、Python、C\# 及 C++ 程式設計}
+    \cvlistdoubleitem{\small \raggedright 使用 Blender 進行網格（3D）建模}
+                    {\small \raggedright 使用 UE5 及 Panda3D 進行 VR 開發}
+    \cvlistdoubleitem{\small \raggedright 使用 SolidWorks 進行 CAD 設計及 3D 列印}
+                    {\small \raggedright 使用 \TeX、Typst 及 Pandoc 排版}
+    \cvlistdoubleitem{\small \raggedright 使用 ImageJ、MATLAB、Napari 進行影像處理}
+                    {\small \raggedright 使用 FullProf Suite 進行 XRD 資料分析}
+    \subsection{科學儀器}
+    \cvlistitem{\small \raggedright 以 PD、PMT、APD、EMCCD 及 iCCD 為偵測器的科學 DAQ 程式設計}
+    \cvlistdoubleitem{\small \raggedright 多區箱式與管式爐的校準與維護}
+                    {\small \raggedright 穩態光致發光及紫外-可見光測量}
+    \cvlistdoubleitem{\small \raggedright 建構 (fs and ns) 瞬態吸收光譜系統}
+                    {\small \raggedright 建構 fs pump-probe 顯微鏡及其影像處理流程}
+    \cvlistdoubleitem{\small \raggedright 被動/主動電子濾波器的設計、模擬與製作}
+                     {\small \raggedright 具有操作掃描電子顯微鏡（SEM）的認證}
+%------------------------------------------
+%  Languages
+%------------------------------------------
+\section{語言能力}
+\cvitemwithcomment{波斯語}{母語}{\hspace{-0.8em}\dotfill \foreignlanguage{arabic}{پارسی}}
+\cvitemwithcomment{英語}{流利 {\footnotesize（iBT 成績：95）}}{}
+\cvitemwithcomment{西班牙語}{中級}{\hspace{-0.8em}\dotfill Español}
+\cvitemwithcomment{德語}{中級}{\hspace{-0.8em}\dotfill Deutsch}
+\cvitemwithcomment{摩斯密碼}{中級}{\hspace{-0.8em}\dotfill \Large{\textbf{ -\hspace{0.1mm}- -\hspace{0.1mm}-\hspace{0.1mm}- .-. ... . -.-. -\hspace{0.1mm}-\hspace{0.1mm}- -.. .}}}
+\cvitemwithcomment{中文}{初級}{\hspace{-0.8em}\dotfill \normalfont 華語}
+
+% \newpage
+% \nocite{*}
+% \printbibliography[title={學術著作}]
+\vfill
+\raggedleft
+\footnotesize{如需推薦信，歡迎索取\\
+最後更新：\textit{\today}}
+\end{document}
