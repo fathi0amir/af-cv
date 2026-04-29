@@ -1,0 +1,1 @@
+{"rule":"NUMBERS_IN_WORDS","sentence":"^\\Q[github]fathi0amir\\E$"}
